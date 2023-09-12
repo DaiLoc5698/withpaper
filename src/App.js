@@ -23,6 +23,7 @@ function App() {
     try {
       await paperManaged?.auth.loginWithPaperModal();
     } catch (e) {
+      console.log(".......e", e);
       // use cancelled login flow
     }
   };
