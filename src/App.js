@@ -30,7 +30,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <button
           style={{ fontSize: "20px", padding: "6px 20px" }}
           onClick={loginWithPaperModal}
